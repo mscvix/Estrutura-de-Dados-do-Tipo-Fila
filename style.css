@@ -1,0 +1,61 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #f0f2f5;
+}
+
+.botoes {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 12px 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background: #007bff;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 12px;
+    width: 180px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.destaque {
+    border: 2px solid green;
+    background: #e6ffe6;
+}
+
+img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.entregador {
+    font-size: 50px;
+    position: relative;
+    animation: mover 2s linear infinite;
+}
+
+@keyframes mover {
+    from { left: -150px; }
+    to { left: 150px; }
+}
